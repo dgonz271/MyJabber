@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="navy">#2465bc</color>
+    <color name="dark_navy">#463e82</color>
+    <color name="darkest_blue">#4b4769</color>
+
+    <color name="dark_red">#bd2534</color>
+    <color name="burgundy">#a3414a</color>
+
+    <color name="mustard">#e8e000</color>
+    <color name="yellow">#EFF751</color>
+
+    <color name="twitter_blue">#1DA1F2</color>
+    <color name="twitter_darkblue">#15202B</color>
+    <color name="twitter_navy">#203e5e</color>
+    <color name="twitter_gray">#415c78</color>
+
+    <color name="twitter_background">#10171E</color>
+
+</resources>
