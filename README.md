@@ -26,7 +26,6 @@ The following **required** functionality is completed:
 The following **optional** features are implemented:
 
 *Part 1*
-- [ ] User can view more tweets as they scroll with infinite pagination
 - [ ] User can tap a tweet to display a "detailed" view of that tweet
 - [ ] User can open the twitter app offline and see last loaded tweets
 - [ ] On the Twitter timeline, leverage the CoordinatorLayout to apply scrolling behavior that hides / shows the toolbar.
@@ -66,12 +65,14 @@ The following **bonus** features are implemented:
 Here's a walkthrough of implemented user stories:
 ## Part 1
 <img src='MyJabberPart1Gif.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' /> 
+
 ## Part 2
 <img src='MyJabberPart2Gif.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 ## Notes
 
 Describe any challenges encountered while building the app.
+
 Attempting the Infinite Pagination was difficult, could not get it to work properly.
 
 ## Open-source libraries used
