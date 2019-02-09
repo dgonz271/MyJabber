@@ -42,7 +42,7 @@ public class TweetsAdapter extends RecyclerView.Adapter<TweetsAdapter.ViewHolder
     public void onBindViewHolder(@NonNull ViewHolder viewHolder, int i) {
     Tweet tweet = tweets.get(i);
     viewHolder.tvBodyTweet.setText(tweet.body);
-    viewHolder.tvHandle.setText("@" + tweet.user.handleName);
+    viewHolder.tvHandle.setText( tweet.user.name + "  @" + tweet.user.handleName);
     viewHolder.timeCreated.setText("Tweeted "+ getRelativeTimeAgo(tweet.createdAt));
 
     Glide.with(context).load(tweet.user.profileImageUrl).into(viewHolder.ivProfilePic);
@@ -92,7 +92,7 @@ public class TweetsAdapter extends RecyclerView.Adapter<TweetsAdapter.ViewHolder
         String relativeDate = "";
         try {
             long dateMillis = sf.parse(rawJsonDate).getTime();
-            relativeDate = DateUtils.getRelativeTimeSpanString(dateMillis, System.currentTimeMillis(), DateUtils.SECOND_IN_MILLIS).toString();
+            relativeDate = DateUtils.getRelativeTimeSpanString(dateMillis, System.currentTimeMillis(), DateUtils.SECOND_IN_MILLIS, DateUtils.FORMAT_ABBREV_RELATIVE).toString();
         } catch (ParseException e) {
             e.printStackTrace();
         }
