@@ -5,11 +5,15 @@
         android:fontWeight="400"
         android:font="@font/helveticaneuemediumcond" />
     <font
-        android:fontStyle="italic"
+        android:fontStyle="normal"
         android:fontWeight="400"
         android:font="@font/helveticaneuebolditalic" />
     <font
         android:fontStyle="normal"
         android:fontWeight="400"
         android:font="@font/helveticaneueheavyitalic" />
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/helveticaneueheavy" />
 </font-family>

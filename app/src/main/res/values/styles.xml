@@ -5,6 +5,7 @@
             Theme customizations available in newer API levels can go in
             res/values-vXX/styles.xml, while customizations related to
             backward-compatibility can go here.
+
         -->
 
     </style>
@@ -12,10 +13,16 @@
     <!-- Application theme. -->
     <style name="AppTheme" parent="AppBaseTheme">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
-
+        <item name="colorPrimary">@color/twitter_blue</item>
     </style>
 
+    <!--Font for toolbar-->
+    <style name="TextAppearance.AppCompat.Widget.ActionBar.Title" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">@font/helveticaneueheavyitalic</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">22dp</item>
 
+    </style>
 
 
 </resources>

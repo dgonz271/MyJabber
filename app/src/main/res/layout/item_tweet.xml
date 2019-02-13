@@ -23,7 +23,7 @@
         android:layout_marginTop="5dp"
         android:layout_marginBottom="5dp"
         android:layout_toEndOf="@+id/iv_profile_pic"
-        android:fontFamily="sans-serif"
+        android:fontFamily="@font/yantramanav_medium"
         android:text="myhandle123"
         android:textColor="@android:color/white"
         android:textStyle="bold" />
@@ -35,6 +35,7 @@
         android:layout_below="@+id/tv_handle"
         android:layout_alignStart="@+id/tv_handle"
         android:layout_marginStart="0dp"
+        android:fontFamily="@font/yantramanav"
         android:textColor="@android:color/white"
         android:textSize="14sp"
         android:textStyle="bold"

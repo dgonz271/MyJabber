@@ -4,7 +4,7 @@
 
     <item
         android:id="@+id/compose"
-        android:icon="@android:drawable/ic_menu_edit"
+        android:icon="@drawable/ic_vector_compose"
         android:title="compose"
         app:showAsAction="always" />
     <item
@@ -12,4 +12,5 @@
         android:icon="@drawable/ic_person_logout"
         android:title="logout"
         app:showAsAction="ifRoom" />
+
 </menu>
